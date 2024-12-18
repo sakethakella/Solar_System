@@ -18,7 +18,7 @@ container.appendChild(renderer.domElement);
 const scene=new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75,window.innerWidth/window.innerHeight,0.01,1000);
 // const orbit=new OrbitControls(camera, renderer.domElement);
-camera.position.set(0,10,40);
+camera.position.set(0,10,20);
 // orbit.update();
 scene.background=new THREE.Color(0x000000);
 const light2=new THREE.AmbientLight();
